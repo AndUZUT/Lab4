@@ -7,8 +7,8 @@
         <title>Java Web - laboratorium 4</title>
     </head>
     <body>
-        <h1>Cześć, <c:out value="${osoba.firstName}"/> ${osoba.lastName}!
-            <a href="mailto:${osoba.email}">${osoba.email}</a>
-        </h1>
+        <h1>Cześć, ${osoba.firstName} ${osoba.lastName}!</h1>
+        <h1>Cześć, <c:out value="${osoba.firstName} ${osoba.lastName}"/>!</h1>
+        <h1><a href="mailto:${osoba.email}">${osoba.email}</a></h1>
     </body>
 </html>
